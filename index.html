@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>SherlockAllanChen - Homepage</title>
+  <style>
+    :root {
+      --bg-dark: #1d093c;
+      --bg-gradient: linear-gradient(135deg, #2e085f 0%, #632987 100%);
+      --card-bg: #29124d;
+      --accent: #b68aff;
+      --accent2: #d6b3ff;
+      --text-light: #f4f0fc;
+      --muted: #cfc7e7;
+      --shadow: 0 4px 24px rgba(60,22,100,0.2);
+      --border-radius: 16px;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-light);
+      min-height: 100vh;
+      letter-spacing: 0.02em;
+    }
+    .container {
+      max-width: 700px;
+      margin: 40px auto;
+      background: var(--card-bg);
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      padding: 2.5rem 2rem;
+    }
+    h1 {
+      font-size: 2.6rem;
+      margin-bottom: 0.2em;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--accent2);
+      margin-top: 0;
+      margin-bottom: 1.2em;
+    }
+    .block {
+      margin-bottom: 2.2em;
+    }
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.3em 0 0.8em 0;
+    }
+    .info-list li {
+      margin-bottom: 0.4em;
+      color: var(--muted);
+    }
+    .links a {
+      color: var(--accent);
+      text-decoration: none;
+      margin-right: 1em;
+      transition: color 0.2s;
+    }
+    .links a:hover {
+      color: var(--accent2);
+      text-decoration: underline;
+    }
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: var(--accent2);
+      margin-bottom: 0.8em;
+      margin-top: 1.1em;
+      letter-spacing: 0.04em;
+    }
+    .pub-list {
+      list-style: none;
+      padding: 0;
+      margin: 0.5em 0 0 0;
+    }
+    .pub-list li {
+      background: rgba(60,22,100,0.17);
+      margin-bottom: 0.7em;
+      padding: 0.7em 1em;
+      border-radius: 10px;
+      color: var(--muted);
+    }
+    .pub-title {
+      color: var(--accent);
+      font-weight: 500;
+      font-size: 1.05em;
+      margin-bottom: 0.18em;
+      display: block;
+    }
+    .pub-author {
+      font-size: 0.98em;
+      color: var(--muted);
+      margin-bottom: 0.07em;
+    }
+    .pub-date {
+      font-size: 0.93em;
+      color: var(--accent2);
+    }
+    @media (max-width: 600px) {
+      .container { padding: 1.1rem 0.6rem; }
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SherlockAllanChen</h1>
+    <h2>Undergrad Student, Zhoukou Normal University<br>Independent Researcher, Hilbate Research</h2>
+
+    <div class="block">
+      <span class="section-title">Contact</span>
+      <ul class="info-list">
+        <li>Email: <a href="mailto:sherlock@hilbate.cn">sherlock@hilbate.cn</a></li>
+      </ul>
+      <div class="links">
+        <a href="https://scholar.google.com/citations?user=4mQf_RIAAAAJ" target="_blank">Google Scholar</a>
+        <a href="https://orcid.org/0009-0003-1428-7735" target="_blank">ORCID</a>
+      </div>
+    </div>
+
+    <div class="block">
+      <span class="section-title">Career & Education History</span>
+      <ul class="info-list">
+        <li>Undergrad Student<br>
+          <a href="https://zknu.edu.cn" target="_blank">Zhoukou Normal University</a> (2024 – Present)
+        </li>
+        <li>Independent Researcher<br>
+          <a href="https://hilbate.cn" target="_blank">Hilbate Research</a> (2024 – Present)
+        </li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <span class="section-title">Expertise</span>
+      <ul class="info-list">
+        <li>Generative AI (2024 – Present)</li>
+        <li>Matrix Theory (2024 – Present)</li>
+      </ul>
+    </div>
+
+    <div class="block">
+      <span class="section-title">Publications</span>
+      <ul class="pub-list">
+        <li>
+          <span class="pub-title">Cellular Generative Models</span>
+          <span class="pub-author">SherlockAllanChen</span>
+          <span class="pub-date">Published: 20 Oct 2025</span>
+        </li>
+        <li>
+          <span class="pub-title">DCT-Sparse Autoencoder</span>
+          <span class="pub-author">SherlockAllanChen</span>
+          <span class="pub-date">Published: 12 Apr 2025</span>
+        </li>
+        <li>
+          <span class="pub-title">Generative Spacetime</span>
+          <span class="pub-author">SherlockAllanChen</span>
+          <span class="pub-date">Published: 28 Apr 2025</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
